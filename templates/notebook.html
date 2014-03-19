@@ -1,0 +1,11 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <h3 style="margin-top:40px">{{ notebook }}</h3>
+    <hr/>
+    <ul>
+    {% for note in notes %}
+        <li><a href="{{ notebook }}/{{ note }}">{{ note }}</a></li>
+    {% endfor %}
+    </ul>
+{% endblock %}

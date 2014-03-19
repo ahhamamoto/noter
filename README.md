@@ -1,5 +1,4 @@
 noter
 =====
 
-Simple markdown notes manager written in Python using Flask.
-
+Simples gerenciador de notas em markdown usando Python e Flask.
