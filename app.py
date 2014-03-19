@@ -1,18 +1,17 @@
 # coding=utf-8
 
+# IDEA incluir cabeçalho nos arquivos md (data, hora, título, tags)
+# TODO fazer header e footer da página
+# TODO possibilitar ao usuário, arquivo de configuração
+# TODO editar arquivos pelo browser
+# TODO fazer upload de arquivos
+
 from flask import Flask
 from flask import render_template
 from flask import Markup
 import markdown
 import glob
 app = Flask(__name__)
-
-# TODO
-# Arrumar a questão da codificação
-# Fazer header e footer
-# Escolher o local que os notebooks e notes vão ficar
-# Editar arquivos pelo browser
-# Esquema de adicionar arquivos
 
 @app.route("/")
 def index():
