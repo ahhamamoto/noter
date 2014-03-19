@@ -1,6 +1,7 @@
 # coding=utf-8
 
 # IDEA incluir cabeçalho nos arquivos md (data, hora, título, tags)
+# IDEA exportar para pdf
 # TODO fazer header e footer da página
 # TODO possibilitar ao usuário, arquivo de configuração
 # TODO editar arquivos pelo browser
